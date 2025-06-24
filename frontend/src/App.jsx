@@ -37,10 +37,10 @@ function App() {
           element={
             <Login />
           } />
-        {/* <Route path="/logout"
+        <Route path="/logout"
           element={
             <Logout />
-          } /> */}
+          } />
         <Route path="*"
           element={
             <NotFound />
